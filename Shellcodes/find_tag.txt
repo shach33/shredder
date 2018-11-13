@@ -1,0 +1,59 @@
+Updating hook on the API: CloseHandle
+Updating hook on the API: CreateFileA
+Updating hook on the API: CreateFileMappingA
+Updating hook on the API: CreateFileMappingW
+Updating hook on the API: CreateFileW
+Updating hook on the API: CreateProcessA
+Updating hook on the API: CreateProcessW
+Updating hook on the API: DeleteFileA
+Updating hook on the API: DeleteFileW
+Updating hook on the API: DuplicateHandle
+Updating hook on the API: ExitThread
+Updating hook on the API: GetCurrentProcess
+Updating hook on the API: GetProcAddress
+Updating hook on the API: GetSystemDirectoryA
+Updating hook on the API: GetSystemDirectoryW
+Updating hook on the API: LoadLibraryA
+Updating hook on the API: LoadLibraryW
+Updating hook on the API: PeekNamedPipe
+Updating hook on the API: ReadFile
+Updating hook on the API: SetUnhandledExceptionFilter
+Updating hook on the API: Sleep
+Updating hook on the API: VirtualAlloc
+Updating hook on the API: VirtualProtect
+Updating hook on the API: WaitForSingleObject
+Updating hook on the API: WinExec
+Updating hook on the API: WriteFile
+Updated Hooks on the DLL: C:\Windows\system32\MSVCRT.dll	 Total Number of Function Hooked: 1396
+Updated Hooks on the DLL: C:\Windows\system32\WS2_32.dll	 Total Number of Function Hooked: 167
+RETURN_ADDRESS: 0x00404d7f	MEM_TYPE: MEM_IMAGE	CALL_FROM: find_tag.exe	CALL_API: KERNEL32!VirtualAlloc
+				Param[1]: Number:5c
+				Param[2]: Number:1000
+				Param[3]: Number:40
+				Param[4]: Address:0x7743ee6c	string:False
+RETURN ADDRESS: 0x00020044	CALL FUNCTION: WS2_32!ioctlsocket	VIRTUALALLOC RETURNED POINTER 0x00020000
+RETURN_ADDRESS: 0x00020044	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!ioctlsocket
+				Param[0]: Number:2
+				Param[1]: Number:4004667f
+				Param[2]: Address:0x12ff78	string:False
+				Param[4]: Address:0x404eb4	string:False
+RETURN_ADDRESS: 0x00020044	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!ioctlsocket
+				Param[0]: Number:3
+				Param[1]: Number:4004667f
+				Param[2]: Address:0x12ff78	string:False
+				Param[4]: Address:0x404eb4	string:False
+RETURN_ADDRESS: 0x00020044	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!ioctlsocket
+				Param[0]: Number:4
+				Param[1]: Number:4004667f
+				Param[2]: Address:0x12ff78	string:False
+				Param[4]: Address:0x404eb4	string:False
+RETURN_ADDRESS: 0x00020044	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!ioctlsocket
+				Param[0]: Number:5
+				Param[1]: Number:4004667f
+				Param[2]: Address:0x12ff78	string:False
+				Param[4]: Address:0x404eb4	string:False
+RETURN_ADDRESS: 0x00020044	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!ioctlsocket
+				Param[0]: Number:6
+				Param[1]: Number:4004667f
+				Param[2]: Address:0x12ff78	string:False
+				Param[4]: Address:0x404eb4	string:False

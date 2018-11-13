@@ -1,0 +1,78 @@
+Updated Hooks on the DLL: C:\Windows\system32\kernel32.dll       Total Number of Function Hooked: 1364
+Updated Hooks on the DLL: C:\Windows\system32\ADVAPI32.dll       Total Number of Function Hooked: 790
+RETURN_ADDRESS: 0x000200af      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!LoadLibraryA
+                                Param[0]: Address:0x200ca       string:fmifs.dll
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x0002010b      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!DeviceIoControl
+                                Param[0]: Number:ffffffff
+                                Param[1]: Number:90020
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[3]: Address:0x73c2209d    string:False
+                                Param[4]: Address:0x7743c366    string:False
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[3]: Address:0x73c2209d    string:False
+                                Param[4]: Address:0x7743c366    string:False
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x000200f0      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CreateFileA
+                                Param[0]: Address:0x20159       string:False
+                                Param[1]: Number:c0000000
+RETURN_ADDRESS: 0x00020114      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!CloseHandle
+                                Param[0]: Number:ffffffff
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020145      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!Sleep
+                                Param[0]: Number:c8
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff
+RETURN_ADDRESS: 0x00020154      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!ExitProcess
+                                Param[2]: Number:ffffffff
+                                Param[4]: Number:ffffffff

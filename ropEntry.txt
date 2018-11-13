@@ -1,0 +1,31 @@
+VirtualProtect 40 700
+VirtualProtect 40 300
+SetProcessDEPPolicy
+WinExec cmd.exe 0
+VirtualAlloc 40 1000
+VirtualProtect 40 512
+VirtualAlloc 40 1000
+VirtualAlloc 40 1000
+VirtualAlloc 40 1000
+VirtualProtect 40 Size
+VirtualAlloc 40 1000
+VirtualAlloc 40 1000 1
+VirtualProtect 40 600
+VirtualProtect 40 Size
+VirtualAlloc 40 1000
+VirtualAlloc 40 1000 1
+VirtualProtect 40 1000
+VirtualProtect 20 Size
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 513
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 300
+VirtualProtect 40 1000
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 Size
+VirtualProtect 40 312

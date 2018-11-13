@@ -1,0 +1,19 @@
+Updated Hooks on the DLL: C:\Windows\system32\kernel32.dll       Total Number of Function Hooked: 1364
+Updated Hooks on the DLL: C:\Windows\system32\ADVAPI32.dll       Total Number of Function Hooked: 790
+RETURN_ADDRESS: 0x000200a4      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: KERNEL32!LoadLibraryA
+                                Param[0]: Address:0x12ff74      string:wininet
+Updated Hooks on the DLL: C:\Windows\system32\wininet.DLL        Total Number of Function Hooked: 292
+RETURN_ADDRESS: 0x000200b2      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: WININET!InternetOpenA
+                                Param[0]: Address:0x12ff74      string:wininet
+RETURN_ADDRESS: 0x000200cb      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: WININET!InternetConnectA
+                                Param[0]: Number:cc0004
+                                Param[1]: Address:0x201ad       string:localhost
+RETURN_ADDRESS: 0x000200e3      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: WININET!HttpOpenRequestA
+                                Param[0]: Number:cc0008
+                                Param[2]: Address:0x20121       string:/evil.exe
+RETURN_ADDRESS: 0x000200fc      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: WININET!InternetSetOptionA
+                                Param[0]: Number:cc000c
+                                Param[2]: Address:0x12ff70      string:False
+                                Param[4]: Number:3380
+RETURN_ADDRESS: 0x0002010a      MEM_TYPE: MEM_PRIVATE   CALL_FROM: Heap CALL_API: WININET!HttpSendRequestA
+                                Param[0]: Number:cc000c

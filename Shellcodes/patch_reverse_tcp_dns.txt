@@ -1,0 +1,62 @@
+Updating hook on the API: CloseHandle
+Updating hook on the API: CreateFileA
+Updating hook on the API: CreateFileMappingA
+Updating hook on the API: CreateFileMappingW
+Updating hook on the API: CreateFileW
+Updating hook on the API: CreateProcessA
+Updating hook on the API: CreateProcessW
+Updating hook on the API: DeleteFileA
+Updating hook on the API: DeleteFileW
+Updating hook on the API: DuplicateHandle
+Updating hook on the API: ExitThread
+Updating hook on the API: GetCurrentProcess
+Updating hook on the API: GetProcAddress
+Updating hook on the API: GetSystemDirectoryA
+Updating hook on the API: GetSystemDirectoryW
+Updating hook on the API: LoadLibraryA
+Updating hook on the API: LoadLibraryW
+Updating hook on the API: PeekNamedPipe
+Updating hook on the API: ReadFile
+Updating hook on the API: SetUnhandledExceptionFilter
+Updating hook on the API: Sleep
+Updating hook on the API: VirtualAlloc
+Updating hook on the API: VirtualProtect
+Updating hook on the API: WaitForSingleObject
+Updating hook on the API: WinExec
+Updating hook on the API: WriteFile
+Updated Hooks on the DLL: C:\Windows\system32\MSVCRT.dll	 Total Number of Function Hooked: 1396
+Updated Hooks on the DLL: C:\Windows\system32\WS2_32.dll	 Total Number of Function Hooked: 167
+Updated Hooks on the DLL: C:\Windows\system32\urlmon.dll	 Total Number of Function Hooked: 126
+RETURN_ADDRESS: 0x00402653	MEM_TYPE: MEM_IMAGE	CALL_FROM: patch_reverse_tcp_dns.exe	CALL_API: KERNEL32!VirtualAlloc
+				Param[1]: Number:162
+				Param[2]: Number:1000
+				Param[3]: Number:40
+				Param[4]: Address:0x7743ee6c	string:False
+RETURN_ADDRESS: 0x0030009b	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: KERNEL32!LoadLibraryA
+				Param[0]: Address:0x12ff74	string:ws2_32
+RETURN ADDRESS: 0x0030009b	CALL FUNCTION: KERNEL32!LoadLibraryA	VIRTUALALLOC RETURNED POINTER 0x00300000
+RETURN_ADDRESS: 0x003000ab	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!WSAStartup
+				Param[0]: Number:190
+				Param[1]: Address:0x12fde4	string:False
+				Param[2]: Number:200
+				Param[3]: Address:0x12fedc	string:False
+				Param[4]: Address:0x77c0e15d	string:False
+RETURN_ADDRESS: 0x003000ba	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!WSASocketA
+RETURN_ADDRESS: 0x003000d1	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!gethostbyname
+				Param[0]: Address:0x3000c0	string:10.0.0.12
+				Param[1]: Number:2020202
+				Param[2]: Number:536e6957
+				Param[3]: Number:206b636f
+				Param[4]: Number:302e32
+RETURN_ADDRESS: 0x003000e9	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!connect
+				Param[0]: Number:fc
+				Param[1]: Address:0x12fdd8	string:False
+				Param[2]: Number:10
+				Param[3]: Number:5c110002
+				Param[4]: Number:c00000a
+RETURN_ADDRESS: 0x003000e9	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!connect
+				Param[0]: Number:fc
+				Param[1]: Address:0x12fdd8	string:False
+				Param[2]: Number:10
+				Param[3]: Number:5c110002
+				Param[4]: Number:c00000a

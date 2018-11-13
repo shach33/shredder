@@ -1,0 +1,86 @@
+Updating hook on the API: CloseHandle
+Updating hook on the API: CreateFileA
+Updating hook on the API: CreateFileMappingA
+Updating hook on the API: CreateFileMappingW
+Updating hook on the API: CreateFileW
+Updating hook on the API: CreateProcessA
+Updating hook on the API: CreateProcessW
+Updating hook on the API: DeleteFileA
+Updating hook on the API: DeleteFileW
+Updating hook on the API: DuplicateHandle
+Updating hook on the API: ExitThread
+Updating hook on the API: GetCurrentProcess
+Updating hook on the API: GetProcAddress
+Updating hook on the API: GetSystemDirectoryA
+Updating hook on the API: GetSystemDirectoryW
+Updating hook on the API: LoadLibraryA
+Updating hook on the API: LoadLibraryW
+Updating hook on the API: PeekNamedPipe
+Updating hook on the API: ReadFile
+Updating hook on the API: SetUnhandledExceptionFilter
+Updating hook on the API: Sleep
+Updating hook on the API: VirtualAlloc
+Updating hook on the API: VirtualProtect
+Updating hook on the API: WaitForSingleObject
+Updating hook on the API: WinExec
+Updating hook on the API: WriteFile
+Updated Hooks on the DLL: C:\Windows\system32\MSVCRT.dll	 Total Number of Function Hooked: 1396
+Updated Hooks on the DLL: C:\Windows\system32\WS2_32.dll	 Total Number of Function Hooked: 167
+Updated Hooks on the DLL: C:\Windows\system32\urlmon.dll	 Total Number of Function Hooked: 126
+RETURN_ADDRESS: 0x0040269a	MEM_TYPE: MEM_IMAGE	CALL_FROM: patch_reverse_ipv6_tcp.exe	CALL_API: KERNEL32!VirtualAlloc
+				Param[1]: Number:121
+				Param[2]: Number:1000
+				Param[3]: Number:40
+				Param[4]: Address:0x7743ee6c	string:False
+RETURN_ADDRESS: 0x003e009b	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: KERNEL32!LoadLibraryA
+				Param[0]: Address:0x12ff74	string:ws2_32
+RETURN ADDRESS: 0x003e009b	CALL FUNCTION: KERNEL32!LoadLibraryA	VIRTUALALLOC RETURNED POINTER 0x003e0000
+RETURN_ADDRESS: 0x003e00ad	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!WSAStartup
+				Param[0]: Number:202
+				Param[1]: Address:0x12fd70	string:False
+				Param[2]: Number:c
+				Param[3]: Number:e090
+				Param[4]: Address:0x12fcb0	string:False
+RETURN_ADDRESS: 0x003e00bd	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!WSASocketA
+RETURN_ADDRESS: 0x003e00ea	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!connect
+				Param[0]: Number:fc
+				Param[1]: Address:0x3e00c6	string:False
+				Param[2]: Number:1c
+				Param[3]: Number:2020202
+				Param[4]: Number:536e6957
+RETURN_ADDRESS: 0x003e00f9	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Address:0x12fd70	string:False
+				Param[2]: Number:4
+				Param[4]: Number:2020202
+RETURN_ADDRESS: 0x003e010c	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: KERNEL32!VirtualAlloc
+				Param[1]: Number:2020202
+				Param[2]: Number:1000
+				Param[3]: Number:40
+				Param[4]: Number:2020202
+RETURN ADDRESS: 0x003e011a	CALL FUNCTION: WS2_32!recv	VIRTUALALLOC RETURNED POINTER 0x017e0000
+RETURN_ADDRESS: 0x003e011a	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Number:17dffff
+				Param[2]: Address:0x2020203	string:False
+				Param[4]: Address:0x17e0000	string:False
+RETURN_ADDRESS: 0x003e011a	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Number:17dfffe
+				Param[2]: Address:0x2020204	string:False
+				Param[4]: Address:0x17e0000	string:False
+RETURN_ADDRESS: 0x003e011a	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Number:17dfffd
+				Param[2]: Address:0x2020205	string:False
+				Param[4]: Address:0x17e0000	string:False
+RETURN_ADDRESS: 0x003e011a	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Number:17dfffc
+				Param[2]: Address:0x2020206	string:False
+				Param[4]: Address:0x17e0000	string:False
+RETURN_ADDRESS: 0x003e011a	MEM_TYPE: MEM_PRIVATE	CALL_FROM: Heap	CALL_API: WS2_32!recv
+				Param[0]: Number:fc
+				Param[1]: Number:17dfffb
+				Param[2]: Address:0x2020207	string:False
+				Param[4]: Address:0x17e0000	string:False
